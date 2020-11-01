@@ -114,3 +114,9 @@ _credentials.py
 .idea/dataSources.*
 .idea/tasks.xml
 .idea/dictionaries/
+
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover

@@ -1,5 +1,9 @@
 from django.apps import apps
+from django.contrib.auth.models import User
 from django.test import TestCase
+from django.urls import reverse
+
+from ..models import Category, Post, Tag
 
 class PostModelTestCase(TestCase):
     def setUp(self):
